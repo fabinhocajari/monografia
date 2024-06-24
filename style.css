@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 :root {
+/*root é uma função usada para configurar uma paleta de cores pré-definida identificadas com o código "--cor'n'" em assossiação com a função "var(--cor'n')"*/
     --cor0:#15261A;
     --cor1:#97D1A7;
     --cor2:#4DD175;
@@ -11,10 +12,13 @@
 
 .site {
     height: 100%vh;
+    /*background-color: rgb(65, 65, 66);
     background-image: url('imagens/Sem\ título3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background: rgb(65, 65, 66) url(imagens/Sem\ título3.png) center center no-repeat fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
